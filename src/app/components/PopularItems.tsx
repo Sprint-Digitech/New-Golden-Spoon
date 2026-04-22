@@ -30,8 +30,8 @@ const popularItems = [
 
 export function PopularItems() {
   return (
-    <section className="py-20 px-4 bg-black">
-      <div className="max-w-7xl mx-auto">
+    <section className="bg-background py-20 dark:bg-black">
+      <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-10 2xl:px-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -50,8 +50,8 @@ export function PopularItems() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              whileHover={{ y: -10 }}
-              className="bg-card/80 backdrop-blur-sm rounded-lg overflow-hidden border border-border shadow-lg hover:shadow-primary/20 transition-all group"
+              whileHover={{ y: -10, rotateX: 2, rotateY: -2, scale: 1.01 }}
+              className="lux-tilt bg-card/80 backdrop-blur-sm rounded-lg overflow-hidden border border-border shadow-lg hover:shadow-primary/20 transition-all group"
             >
               <div className="relative h-64 overflow-hidden">
                 <ImageWithFallback

@@ -1,3 +1,47 @@
 @import './fonts.css';
 @import './tailwind.css';
 @import './theme.css';
+
+@keyframes luxFloat {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes luxGlow {
+  0% {
+    box-shadow: 0 8px 24px rgba(212, 160, 23, 0.08);
+  }
+  50% {
+    box-shadow: 0 14px 34px rgba(212, 160, 23, 0.18);
+  }
+  100% {
+    box-shadow: 0 8px 24px rgba(212, 160, 23, 0.08);
+  }
+}
+
+.lux-tilt {
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.lux-float {
+  animation: luxFloat 4s ease-in-out infinite;
+}
+
+.lux-glow {
+  animation: luxGlow 3.2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lux-float,
+  .lux-glow {
+    animation: none;
+  }
+}

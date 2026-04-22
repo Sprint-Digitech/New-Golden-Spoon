@@ -9,8 +9,11 @@ interface ComboSectionProps {
 
 export function ComboSection({ onAddToCart }: ComboSectionProps) {
   return (
-    <section id="combos" className="py-20 px-4 bg-gradient-to-b from-black/95 to-black">
-      <div className="max-w-7xl mx-auto">
+    <section
+      id="combos"
+      className="bg-gradient-to-b from-background to-background py-20 dark:from-black/95 dark:to-black"
+    >
+      <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-10 2xl:px-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -29,8 +32,8 @@ export function ComboSection({ onAddToCart }: ComboSectionProps) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              whileHover={{ y: -5 }}
-              className="bg-card/80 backdrop-blur-sm rounded-lg overflow-hidden border border-border shadow-lg hover:shadow-primary/20 transition-all"
+              whileHover={{ y: -8, rotateX: 2, rotateY: -2, scale: 1.01 }}
+              className="lux-tilt bg-card/80 backdrop-blur-sm rounded-lg overflow-hidden border border-border shadow-lg hover:shadow-primary/20 transition-all"
             >
               <div className="relative h-56 overflow-hidden">
                 <ImageWithFallback
@@ -49,7 +52,7 @@ export function ComboSection({ onAddToCart }: ComboSectionProps) {
                 <p className="text-muted-foreground mb-4">{combo.description}</p>
 
                 <motion.button
-                  whileHover={{ scale: 1.02 }}
+                  whileHover={{ scale: 1.04, y: -1 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() =>
                     onAddToCart({
@@ -59,7 +62,7 @@ export function ComboSection({ onAddToCart }: ComboSectionProps) {
                       quantity: 1,
                     })
                   }
-                  className="w-full py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-all flex items-center justify-center gap-2 shadow-md"
+                  className="lux-glow w-full py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-all flex items-center justify-center gap-2 shadow-md"
                 >
                   <Plus className="w-5 h-5" />
                   Add to Cart

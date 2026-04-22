@@ -24,8 +24,11 @@ export function MenuSection({ onAddToCart }: MenuSectionProps) {
   };
 
   return (
-    <section id="menu" className="py-20 px-4 bg-gradient-to-b from-black to-black/95">
-      <div className="max-w-7xl mx-auto">
+    <section
+      id="menu"
+      className="bg-gradient-to-b from-background to-background py-20 text-black dark:text-foreground dark:from-black dark:to-black/95"
+    >
+      <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-10 2xl:px-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -33,7 +36,7 @@ export function MenuSection({ onAddToCart }: MenuSectionProps) {
           className="text-center mb-12"
         >
           <h2 className="text-4xl md:text-5xl text-primary mb-4">Our Menu</h2>
-          <p className="text-muted-foreground text-lg">Explore our delicious offerings</p>
+          <p className="text-black/75 dark:text-muted-foreground text-lg">Explore our delicious offerings</p>
         </motion.div>
 
         <div className="mb-8 flex flex-wrap gap-3 justify-center">
@@ -43,11 +46,10 @@ export function MenuSection({ onAddToCart }: MenuSectionProps) {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => setSelectedCategory(category.id)}
-              className={`px-6 py-3 rounded-lg border transition-all ${
-                selectedCategory === category.id
-                  ? "bg-primary text-primary-foreground border-primary shadow-lg shadow-primary/20"
-                  : "bg-card/50 backdrop-blur-sm text-foreground border-border hover:border-primary"
-              }`}
+              className={`px-6 py-3 rounded-lg border transition-all ${selectedCategory === category.id
+                ? "bg-primary text-primary-foreground border-primary shadow-lg shadow-primary/20"
+                : "bg-card/50 backdrop-blur-sm text-black dark:text-foreground border-border hover:border-primary"
+                }`}
             >
               <span className="mr-2">{category.icon}</span>
               {category.name}
@@ -59,7 +61,7 @@ export function MenuSection({ onAddToCart }: MenuSectionProps) {
           key={selectedCategory}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
+          className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
         >
           {currentCategory?.items.map((item, index) => (
             <motion.div

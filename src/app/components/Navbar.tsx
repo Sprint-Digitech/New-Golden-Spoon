@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
-import { ShoppingCart, Menu, X, Phone } from "lucide-react";
+import { ShoppingCart, Menu, X, Phone, Sun, Moon } from "lucide-react";
 import { useState } from "react";
-
+import { useTheme } from "next-themes";
 interface NavbarProps {
   cartCount: number;
   onCartClick: () => void;
@@ -10,6 +10,7 @@ interface NavbarProps {
 
 export function Navbar({ cartCount, onCartClick, onBookClick }: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false);
+  const { theme, setTheme } = useTheme();
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -23,7 +24,7 @@ export function Navbar({ cartCount, onCartClick, onBookClick }: NavbarProps) {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md border-b border-primary/20"
+      className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-primary/20 transition-colors duration-300"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
@@ -56,12 +57,18 @@ export function Navbar({ cartCount, onCartClick, onBookClick }: NavbarProps) {
             >
               Menu
             </button>
-            <button
-              onClick={() => scrollToSection("combos")}
-              className="text-foreground hover:text-primary transition-colors"
-            >
-              Combos
-            </button>
+              <button
+                onClick={() => scrollToSection("combos")}
+                className="text-foreground hover:text-primary transition-colors"
+              >
+                Combos
+              </button>
+              <button
+                onClick={() => scrollToSection("gallery")}
+                className="text-foreground hover:text-primary transition-colors"
+              >
+                Gallery
+              </button>
             <button
               onClick={() => scrollToSection("contact")}
               className="text-foreground hover:text-primary transition-colors"
@@ -91,6 +98,13 @@ export function Navbar({ cartCount, onCartClick, onBookClick }: NavbarProps) {
                   {cartCount}
                 </span>
               )}
+            </button>
+            <button
+              onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+              className="p-2 text-foreground hover:text-primary transition-colors rounded-full bg-muted/50"
+              aria-label="Toggle theme"
+            >
+              {theme === 'dark' ? <Moon className="w-5 h-5" /> : <Sun className="w-5 h-5" />}
             </button>
           </div>
 
@@ -127,12 +141,18 @@ export function Navbar({ cartCount, onCartClick, onBookClick }: NavbarProps) {
             >
               Menu
             </button>
-            <button
-              onClick={() => scrollToSection("combos")}
-              className="block w-full text-left px-4 py-2 text-foreground hover:text-primary hover:bg-muted rounded-lg transition-colors"
-            >
-              Combos
-            </button>
+              <button
+                onClick={() => scrollToSection("combos")}
+                className="block w-full text-left px-4 py-2 text-foreground hover:text-primary hover:bg-muted rounded-lg transition-colors"
+              >
+                Combos
+              </button>
+              <button
+                onClick={() => scrollToSection("gallery")}
+                className="block w-full text-left px-4 py-2 text-foreground hover:text-primary hover:bg-muted rounded-lg transition-colors"
+              >
+                Gallery
+              </button>
             <button
               onClick={() => scrollToSection("contact")}
               className="block w-full text-left px-4 py-2 text-foreground hover:text-primary hover:bg-muted rounded-lg transition-colors"
@@ -157,6 +177,16 @@ export function Navbar({ cartCount, onCartClick, onBookClick }: NavbarProps) {
               className="block w-full text-left px-4 py-2 text-foreground hover:text-primary hover:bg-muted rounded-lg transition-colors relative"
             >
               Cart {cartCount > 0 && `(${cartCount})`}
+            </button>
+            <button
+              onClick={() => {
+                setTheme(theme === 'dark' ? 'light' : 'dark');
+                setIsOpen(false);
+              }}
+              className="flex items-center gap-2 w-full px-4 py-2 text-foreground hover:text-primary hover:bg-muted rounded-lg transition-colors"
+            >
+              {theme === 'dark' ? <Moon className="w-5 h-5" /> : <Sun className="w-5 h-5" />}
+              {theme === 'dark' ? 'Light Mode' : 'Dark Mode'}
             </button>
           </motion.div>
         )}
