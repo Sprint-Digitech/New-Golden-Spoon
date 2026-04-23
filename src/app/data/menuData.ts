@@ -24,88 +24,88 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Achari Chaap",
         "price": 180,
-        "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80",
+        "image": "/menu/achari-chaap.jpeg",
         "halfPrice": 120
       },
       {
         "name": "Achari Mushroom Tikka",
         "price": 220,
-        "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+        "image": "/menu/achari-mushroom-tikka.jpeg"
       },
       {
         "name": "Achari Paneer Tikka",
         "price": 210,
-        "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&q=80",
+        "image": "/menu/achari-paneer-tikka.jpeg",
         "halfPrice": 130
       },
       {
         "name": "Afghani Chaap",
         "price": 190,
-        "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+        "image": "/menu/afghani-chaap.jpeg",
         "halfPrice": 130
       },
       {
         "name": "Dahi Ke Sholey",
         "price": 150,
-        "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+        "image": "/menu/dahi-ke-sholey.jpeg"
       },
       {
         "name": "Haryali Chaap",
         "price": 180,
-        "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&q=80",
+        "image": "/menu/haryali-chaap.jpeg",
         "halfPrice": 120
       },
       {
         "name": "Haryali Paneer Tikka",
         "price": 210,
-        "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&q=80",
+        "image": "/menu/haryali-paneer-tikka.jpeg",
         "halfPrice": 140
       },
       {
         "name": "Malai Chaap",
         "price": 180,
-        "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80",
+        "image": "/menu/malai-chaap.jpeg",
         "halfPrice": 120
       },
       {
         "name": "Malai Paneer Tikka",
         "price": 210,
-        "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&q=80",
+        "image": "/menu/malai-paneer-tikka.jpeg",
         "halfPrice": 140
       },
       {
         "name": "Mushroom Tikka",
         "price": 220,
-        "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+        "image": "/menu/mushroom-tikka.jpeg"
       },
       {
         "name": "Stuffed Malai Chaap",
         "price": 220,
-        "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80",
+        "image": "/menu/stuffed-malai-chaap.jpeg",
         "halfPrice": 150
       },
       {
         "name": "Stuffed Tandoori Chaap",
         "price": 220,
-        "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&q=80",
+        "image": "/menu/stuffed-tandoori-chaap.jpeg",
         "halfPrice": 150
       },
       {
         "name": "Tandoori Masala Chaap",
         "price": 170,
-        "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&q=80",
+        "image": "/menu/tandoori-masala-chaap.jpeg",
         "halfPrice": 110
       },
       {
         "name": "Tandoori Paneer Tikka",
         "price": 210,
-        "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80",
+        "image": "/menu/tandoori-paneer-tikka.jpeg",
         "halfPrice": 130
       },
       {
         "name": "Tandoori Platter",
         "price": 399,
-        "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80"
+        "image": "/menu/tandoori-platter.jpeg"
       }
     ],
     "hasHalfFull": true
@@ -118,42 +118,42 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Afghani Chaap Roll",
         "price": 90,
-        "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=800&q=80"
+        "image": "/menu/afghani-chaap-roll.jpeg"
       },
       {
         "name": "Chilli Mushroom Wrap",
         "price": 90,
-        "image": "https://images.unsplash.com/photo-1593252719532-6318b3723c05?w=800&q=80"
+        "image": "/menu/chilli-mushroom-wrap.jpeg"
       },
       {
         "name": "Chilli Paneer Wrap",
         "price": 90,
-        "image": "https://images.unsplash.com/photo-1593252719532-6318b3723c05?w=800&q=80"
+        "image": "/menu/chilli-paneer-wrap.jpeg"
       },
       {
         "name": "Malai Chaap Roll",
         "price": 90,
-        "image": "https://images.unsplash.com/photo-1593252719532-6318b3723c05?w=800&q=80"
+        "image": "/menu/malai-chaap-roll.png"
       },
       {
         "name": "Paneer Roll",
         "price": 70,
-        "image": "https://images.unsplash.com/photo-1640622303295-86d948f10f78?w=800&q=80"
+        "image": "/menu/paneer-roll.png"
       },
       {
         "name": "Tandoori Chaap Roll",
         "price": 80,
-        "image": "https://images.unsplash.com/photo-1640622303295-86d948f10f78?w=800&q=80"
+        "image": "/menu/tandoori-chaap-roll.jpeg"
       },
       {
         "name": "Veg Manchurian Roll",
         "price": 80,
-        "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=800&q=80"
+        "image": "/menu/veg-manchurian-roll.jpeg"
       },
       {
         "name": "Veg Roll",
         "price": 50,
-        "image": "https://images.unsplash.com/photo-1640622303295-86d948f10f78?w=800&q=80"
+        "image": "/menu/veg-roll.jpeg"
       }
     ]
   },
@@ -165,117 +165,117 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Aloo Naan",
         "price": 45,
-        "image": "https://images.unsplash.com/photo-1613292443284-8d10ef9383fe?w=800&q=80"
+        "image": "/menu/aloo-naan.jpeg"
       },
       {
         "name": "Aloo Paratha",
         "price": 40,
-        "image": "https://images.unsplash.com/photo-1613292443284-8d10ef9383fe?w=800&q=80"
+        "image": "/menu/aloo-paratha.jpeg"
       },
       {
         "name": "Aloo Pyaaz Paratha",
         "price": 60,
-        "image": "https://images.unsplash.com/photo-1613292443284-8d10ef9383fe?w=800&q=80"
+        "image": "/menu/aloo-pyaaz-paratha.jpeg"
       },
       {
         "name": "Amritsari Kulcha",
         "price": 80,
-        "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa6a6b?w=800&q=80"
+        "image": "/menu/amritsari-kulcha.png"
       },
       {
         "name": "Butter Naan",
         "price": 40,
-        "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80"
+        "image": "/menu/butter-naan.jpeg"
       },
       {
         "name": "Classic Boondi Raita",
         "price": 56,
-        "image": "https://images.unsplash.com/photo-1613292443284-8d10ef9383fe?w=800&q=80"
+        "image": "/menu/classic-boondi-raita.jpeg"
       },
       {
         "name": "Garlic Naan",
         "price": 50,
-        "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80"
+        "image": "/menu/garlic-naan.jpeg"
       },
       {
         "name": "Lachcha Paratha",
         "price": 40,
-        "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa6a6b?w=800&q=80"
+        "image": "/menu/lachcha-paratha.jpeg"
       },
       {
         "name": "Masala Missi Roti",
         "price": 35,
-        "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa6a6b?w=800&q=80"
+        "image": "/menu/masala-missi-roti.jpeg"
       },
       {
         "name": "Missi Roti",
         "price": 30,
-        "image": "https://images.unsplash.com/photo-1613292443284-8d10ef9383fe?w=800&q=80"
+        "image": "/menu/missi-roti.jpeg"
       },
       {
         "name": "Mix Veg Paratha",
         "price": 70,
-        "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80"
+        "image": "/menu/mix-veg-paratha.jpeg"
       },
       {
         "name": "Mix Veg Raita",
         "price": 64,
-        "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa6a6b?w=800&q=80"
+        "image": "/menu/mix-veg-raita.jpeg"
       },
       {
         "name": "Onion Missi Roti",
         "price": 30,
-        "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80"
+        "image": "/menu/onion-missi-roti.png"
       },
       {
         "name": "Paneer Naan",
         "price": 70,
-        "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa6a6b?w=800&q=80"
+        "image": "/menu/paneer-naan.jpeg"
       },
       {
         "name": "Paneer Paratha",
         "price": 70,
-        "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80"
+        "image": "/menu/paneer-paratha.jpeg"
       },
       {
         "name": "Plain Naan",
         "price": 30,
-        "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa6a6b?w=800&q=80"
+        "image": "/menu/plain-naan.jpeg"
       },
       {
         "name": "Pudina Naan",
         "price": 45,
-        "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80"
+        "image": "/menu/pudina-naan.jpeg"
       },
       {
         "name": "Rumali Roti",
         "price": 10,
-        "image": "https://images.unsplash.com/photo-1613292443284-8d10ef9383fe?w=800&q=80"
+        "image": "/menu/rumali-roti.png"
       },
       {
         "name": "Special Pineapple Raita",
         "price": 72,
-        "image": "https://images.unsplash.com/photo-1613292443284-8d10ef9383fe?w=800&q=80"
+        "image": "/menu/special-pineapple-raita.jpeg"
       },
       {
         "name": "Stuffed Kulcha",
         "price": 80,
-        "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa6a6b?w=800&q=80"
+        "image": "/menu/stuffed-kulcha.jpeg"
       },
       {
         "name": "Stuffed Naan",
         "price": 60,
-        "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80"
+        "image": "/menu/stuffed-naan.jpeg"
       },
       {
         "name": "Tandoori Plain Roti",
         "price": 12,
-        "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa6a6b?w=800&q=80"
+        "image": "/menu/tandoori-plain-roti.jpeg"
       },
       {
         "name": "Tandoori Roti Butter",
         "price": 15,
-        "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa6a6b?w=800&q=80"
+        "image": "/menu/tandoori-roti-butter.jpeg"
       }
     ]
   },
@@ -287,47 +287,47 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Aloo Sandwich",
         "price": 50,
-        "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=800&q=80"
+        "image": "/menu/aloo-sandwich.jpeg"
       },
       {
         "name": "Cheese Burger",
         "price": 60,
-        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80"
+        "image": "/menu/cheese-burger.jpeg"
       },
       {
         "name": "Cheese Corn Sandwich",
         "price": 60,
-        "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=800&q=80"
+        "image": "/menu/cheese-corn-sandwich.jpeg"
       },
       {
         "name": "Chilli Paneer Sandwich",
         "price": 70,
-        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800&q=80"
+        "image": "/menu/chilli-paneer-sandwich.jpeg"
       },
       {
         "name": "Double Patty Burger",
         "price": 80,
-        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800&q=80"
+        "image": "/menu/double-patty-burger.jpeg"
       },
       {
         "name": "Grilled Sandwich",
         "price": 70,
-        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800&q=80"
+        "image": "/menu/grilled-sandwich.jpeg"
       },
       {
         "name": "Veg Burger",
         "price": 50,
-        "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=800&q=80"
+        "image": "/menu/veg-burger.jpeg"
       },
       {
         "name": "Veg Kurkure Burger",
         "price": 90,
-        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80"
+        "image": "/menu/veg-kurkure-burger.jpeg"
       },
       {
         "name": "Veggie Delight Burger",
         "price": 70,
-        "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=800&q=80"
+        "image": "/menu/veggie-delight-burger.jpeg"
       }
     ]
   },
@@ -339,7 +339,7 @@ export const menuData: MenuCategory[] = [
       {
         "name": "American Remix Pizza",
         "price": 190,
-        "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&q=80",
+        "image": "/menu/american-remix-pizza.jpeg",
         "sizes": [
           {
             "size": "10 inch",
@@ -358,7 +358,7 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Capsicum Cheese Pizza",
         "price": 170,
-        "image": "https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=800&q=80",
+        "image": "/menu/capsicum-cheese-pizza.jpeg",
         "sizes": [
           {
             "size": "10 inch",
@@ -377,7 +377,7 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Exotic Veg Pizza",
         "price": 190,
-        "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&q=80",
+        "image": "/menu/exotic-veg-pizza.jpeg",
         "sizes": [
           {
             "size": "10 inch",
@@ -396,7 +396,7 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Farmhouse Pizza",
         "price": 180,
-        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+        "image": "/menu/farmhouse-pizza.png",
         "sizes": [
           {
             "size": "10 inch",
@@ -415,7 +415,7 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Golden Corn Pizza",
         "price": 170,
-        "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&q=80",
+        "image": "/menu/golden-corn-pizza.jpeg",
         "sizes": [
           {
             "size": "10 inch",
@@ -434,7 +434,7 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Margherita Pizza",
         "price": 170,
-        "image": "https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=800&q=80",
+        "image": "/menu/margherita-pizza.png",
         "sizes": [
           {
             "size": "10 inch",
@@ -453,7 +453,7 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Onion Capsicum Pizza",
         "price": 180,
-        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+        "image": "/menu/onion-capsicum-pizza.jpeg",
         "sizes": [
           {
             "size": "10 inch",
@@ -472,7 +472,7 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Paneer Tikka Pizza",
         "price": 180,
-        "image": "https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=800&q=80",
+        "image": "/menu/paneer-tikka-pizza.jpeg",
         "sizes": [
           {
             "size": "10 inch",
@@ -514,17 +514,17 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Hot Chocolate Milk",
         "price": 50,
-        "image": "https://images.unsplash.com/photo-1558857563-c0c61f82b2e7?w=800&q=80"
+        "image": "/menu/hot-chocolate-milk.jpeg"
       },
       {
         "name": "Hot Coffee",
         "price": 40,
-        "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=800&q=80"
+        "image": "/menu/hot-coffee.jpeg"
       },
       {
         "name": "Masala Tea",
         "price": 30,
-        "image": "https://images.unsplash.com/photo-1558857563-c0c61f82b2e7?w=800&q=80"
+        "image": "/menu/masala-tea.png"
       },
       {
         "name": "Pepsi",
@@ -534,7 +534,7 @@ export const menuData: MenuCategory[] = [
       {
         "name": "tea",
         "price": 15,
-        "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=800&q=80"
+        "image": "/menu/tea.jpeg"
       },
       {
         "name": "Thums Up",
@@ -551,47 +551,47 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Blood Orange Mojito",
         "price": 69,
-        "image": "https://images.unsplash.com/photo-1527761939622-911909463d1f?w=800&q=80"
+        "image": "/menu/blood-orange-mojito.jpeg"
       },
       {
         "name": "Blue Lagoon Mojito",
         "price": 69,
-        "image": "https://images.unsplash.com/photo-1527761939622-911909463d1f?w=800&q=80"
+        "image": "/menu/blue-lagoon-mojito.png"
       },
       {
         "name": "Green Apple Mojito",
         "price": 69,
-        "image": "https://images.unsplash.com/photo-1527761939622-911909463d1f?w=800&q=80"
+        "image": "/menu/green-apple-mojito.png"
       },
       {
         "name": "Mango Mojito",
         "price": 69,
-        "image": "https://images.unsplash.com/photo-1527761939622-911909463d1f?w=800&q=80"
+        "image": "/menu/mango-mojito.jpeg"
       },
       {
         "name": "Peach Mojito",
         "price": 69,
-        "image": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=800&q=80"
+        "image": "/menu/peach-mojito.jpeg"
       },
       {
         "name": "Pineapple Mojito",
         "price": 69,
-        "image": "https://images.unsplash.com/photo-1546171753-97d7676e4602?w=800&q=80"
+        "image": "/menu/pineapple-mojito.jpeg"
       },
       {
         "name": "Strawberry Mojito",
         "price": 69,
-        "image": "https://images.unsplash.com/photo-1527761939622-911909463d1f?w=800&q=80"
+        "image": "/menu/strawberry-mojito.jpeg"
       },
       {
         "name": "Virgin Mojito",
         "price": 69,
-        "image": "https://images.unsplash.com/photo-1527761939622-911909463d1f?w=800&q=80"
+        "image": "/menu/virgin-mojito.jpeg"
       },
       {
         "name": "Water Melon Mojito",
         "price": 69,
-        "image": "https://images.unsplash.com/photo-1527761939622-911909463d1f?w=800&q=80"
+        "image": "/menu/water-melon-mojito.jpeg"
       }
     ]
   },
@@ -603,47 +603,47 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Blueberry Milk Shake",
         "price": 90,
-        "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=800&q=80"
+        "image": "/menu/blueberry-milk-shake.jpeg"
       },
       {
         "name": "Chocolate Milk Shake",
         "price": 80,
-        "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=800&q=80"
+        "image": "/menu/chocolate-milk-shake.jpeg"
       },
       {
         "name": "Cold Coffee",
         "price": 70,
-        "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80"
+        "image": "/menu/cold-coffee.png"
       },
       {
         "name": "Kit-Kat Milk Shake",
         "price": 90,
-        "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80"
+        "image": "/menu/kit-kat-milk-shake.jpeg"
       },
       {
         "name": "mango milk shake",
         "price": 90,
-        "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=800&q=80"
+        "image": "/menu/mango-milk-shake.jpeg"
       },
       {
         "name": "Oreo Milk Shake",
         "price": 80,
-        "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80"
+        "image": "/menu/oreo-milk-shake.jpeg"
       },
       {
         "name": "pine apple milk shake",
         "price": 90,
-        "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=800&q=80"
+        "image": "/menu/pine-apple-milk-shake.jpeg"
       },
       {
         "name": "Strawberry Milk Shake",
         "price": 90,
-        "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80"
+        "image": "/menu/strawberry-milk-shake.jpeg"
       },
       {
         "name": "Vanilla Milk Shake",
         "price": 70,
-        "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80"
+        "image": "/menu/vanilla-milk-shake.jpeg"
       }
     ]
   },
@@ -655,12 +655,12 @@ export const menuData: MenuCategory[] = [
       {
         "name": "boondi raita",
         "price": 35,
-        "image": "https://images.unsplash.com/photo-1604909052743-94e838986d24?w=800&q=80"
+        "image": "/menu/boondi-raita.jpeg"
       },
       {
         "name": "Fresh Plain Curd",
         "price": 30,
-        "image": "https://images.unsplash.com/photo-1584270354949-1fba19d5d08e?w=800&q=80"
+        "image": "/menu/fresh-plain-curd.jpeg"
       }
     ]
   },
@@ -672,22 +672,22 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Butter Masala Dosa",
         "price": 140,
-        "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=800&q=80"
+        "image": "/menu/butter-masala-dosa.png"
       },
       {
         "name": "Idli Sambar (2 Pcs)",
         "price": 60,
-        "image": "https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?w=800&q=80"
+        "image": "/menu/idli-sambar--2-pcs-.png"
       },
       {
         "name": "Paneer Dosa",
         "price": 170,
-        "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=800&q=80"
+        "image": "/menu/paneer-dosa.jpeg"
       },
       {
         "name": "Plain Dosa",
         "price": 80,
-        "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=800&q=80"
+        "image": "/menu/plain-dosa.jpeg"
       }
     ]
   },
@@ -699,133 +699,133 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Chaap Butter Masala",
         "price": 180,
-        "image": "https://images.unsplash.com/photo-1565299585323-38174c4a6f36?w=800&q=80",
+        "image": "/menu/chaap-butter-masala.png",
         "halfPrice": 110
       },
       {
         "name": "Dal Fry",
         "price": 100,
-        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+        "image": "/menu/dal-fry.jpeg",
         "halfPrice": 70
       },
       {
         "name": "Dal Handi",
         "price": 110,
-        "image": "https://images.unsplash.com/photo-1565299585323-38174c4a6f36?w=800&q=80",
+        "image": "/menu/dal-handi.jpeg",
         "halfPrice": 80
       },
       {
         "name": "Dal Makhani",
         "price": 180,
-        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80",
+        "image": "/menu/dal-makhani.jpeg",
         "halfPrice": 100
       },
       {
         "name": "Dal Tadka",
         "price": 120,
-        "image": "https://images.unsplash.com/photo-1565299585323-38174c4a6f36?w=800&q=80",
+        "image": "/menu/dal-tadka.jpeg",
         "halfPrice": 90
       },
       {
         "name": "Dum Aloo Kashmiri",
         "price": 200,
-        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+        "image": "/menu/dum-aloo-kashmiri.jpeg",
         "halfPrice": 120
       },
       {
         "name": "Kadhai Chaap",
         "price": 220,
-        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80",
+        "image": "/menu/kadhai-chaap.jpeg",
         "halfPrice": 130
       },
       {
         "name": "Kadhai Paneer",
         "price": 230,
-        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+        "image": "/menu/kadhai-paneer.jpeg",
         "halfPrice": 130
       },
       {
         "name": "Malai Kofta Red Gravy",
         "price": 220,
-        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80",
+        "image": "/menu/malai-kofta-red-gravy.jpeg",
         "halfPrice": 130
       },
       {
         "name": "Matar Mushroom",
         "price": 190,
-        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+        "image": "/menu/matar-mushroom.jpeg",
         "halfPrice": 115
       },
       {
         "name": "Matar Paneer",
         "price": 200,
-        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+        "image": "/menu/matar-paneer.jpeg",
         "halfPrice": 120
       },
       {
         "name": "Mix Veg",
         "price": 180,
-        "image": "https://images.unsplash.com/photo-1565299585323-38174c4a6f36?w=800&q=80",
+        "image": "/menu/mix-veg.jpeg",
         "halfPrice": 110
       },
       {
         "name": "Mushroom Do Pyaaza",
         "price": 200,
-        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80",
+        "image": "/menu/mushroom-do-pyaaza.jpeg",
         "halfPrice": 120
       },
       {
         "name": "Paneer Bhurji",
         "price": 240,
-        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80",
+        "image": "/menu/paneer-bhurji.jpeg",
         "halfPrice": 140
       },
       {
         "name": "Paneer Butter Masala",
         "price": 220,
-        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+        "image": "/menu/paneer-butter-masala.jpeg",
         "halfPrice": 130
       },
       {
         "name": "Paneer Do Pyaaza",
         "price": 210,
-        "image": "https://images.unsplash.com/photo-1565299585323-38174c4a6f36?w=800&q=80",
+        "image": "/menu/paneer-do-pyaaza.jpeg",
         "halfPrice": 120
       },
       {
         "name": "Paneer Handi",
         "price": 260,
-        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80",
+        "image": "/menu/paneer-handi.jpeg",
         "halfPrice": 150
       },
       {
         "name": "Paneer Lababdar",
         "price": 230,
-        "image": "https://images.unsplash.com/photo-1565299585323-38174c4a6f36?w=800&q=80",
+        "image": "/menu/paneer-lababdar.jpeg",
         "halfPrice": 130
       },
       {
         "name": "Paneer Pasanda",
         "price": 240,
-        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80",
+        "image": "/menu/paneer-pasanda.jpeg",
         "halfPrice": 140
       },
       {
         "name": "Paneer Tikka Masala",
         "price": 240,
-        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+        "image": "/menu/paneer-tikka-masala.png",
         "halfPrice": 140
       },
       {
         "name": "Shahi Paneer",
         "price": 220,
-        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80",
+        "image": "/menu/shahi-paneer.png",
         "halfPrice": 130
       },
       {
         "name": "Tawa Chaap Curry",
         "price": 220,
-        "image": "https://images.unsplash.com/photo-1565299585323-38174c4a6f36?w=800&q=80",
+        "image": "/menu/tawa-chaap-curry.jpeg",
         "halfPrice": 130
       }
     ],
@@ -839,80 +839,80 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Cheesy Fries",
         "price": 90,
-        "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80"
+        "image": "/menu/cheesy-fries.jpeg"
       },
       {
         "name": "Chilli Baby Corn",
         "price": 150,
-        "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=800&q=80",
+        "image": "/menu/chilli-baby-corn.jpeg",
         "halfPrice": 90
       },
       {
         "name": "Chilli Chaap",
         "price": 90,
-        "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=800&q=80",
+        "image": "/menu/chilli-chaap.jpeg",
         "halfPrice": 70
       },
       {
         "name": "Chilli Mushroom",
         "price": 128,
-        "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80"
+        "image": "/menu/chilli-mushroom.jpeg"
       },
       {
         "name": "Chilli Paneer Dry",
         "price": 150,
-        "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+        "image": "/menu/chilli-paneer-dry.jpeg",
         "halfPrice": 90
       },
       {
         "name": "Chilli Paneer Gravy",
         "price": 160,
-        "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=800&q=80",
+        "image": "/menu/chilli-paneer-gravy.jpeg",
         "halfPrice": 100
       },
       {
         "name": "Chilli Potato",
         "price": 90,
-        "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+        "image": "/menu/chilli-potato.jpeg",
         "halfPrice": 70
       },
       {
         "name": "Crispy Corn",
         "price": 120,
-        "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=800&q=80"
+        "image": "/menu/crispy-corn.jpeg"
       },
       {
         "name": "French Fries",
         "price": 70,
-        "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80"
+        "image": "/menu/french-fries.jpeg"
       },
       {
         "name": "Honey Chilli Potato",
         "price": 100,
-        "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+        "image": "/menu/honey-chilli-potato.jpeg",
         "halfPrice": 80
       },
       {
         "name": "Peri-Peri Fries",
         "price": 80,
-        "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80"
+        "image": "/menu/peri-peri-fries.jpeg"
       },
       {
         "name": "Veg Manchurian Dry",
         "price": 120,
-        "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
+        "image": "/menu/veg-manchurian-dry.jpeg",
         "halfPrice": 80
       },
       {
         "name": "Veg Manchurian Gravy",
         "price": 140,
-        "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80",
+        "image": "/menu/veg-manchurian-gravy.jpeg",
         "halfPrice": 90
       },
       {
         "name": "Veg Spring Roll",
         "price": 70,
-        "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=800&q=80"
+        "image": "/menu/veg-spring-roll.jpeg"
       }
     ],
     "hasHalfFull": true
@@ -925,22 +925,22 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Cheesy Maggie",
         "price": 70,
-        "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=800&q=80"
+        "image": "/menu/cheesy-maggie.jpeg"
       },
       {
         "name": "Peri-Peri Maggie",
         "price": 60,
-        "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=800&q=80"
+        "image": "/menu/peri-peri-maggie.jpeg"
       },
       {
         "name": "Plain Maggie",
         "price": 40,
-        "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=800&q=80"
+        "image": "/menu/plain-maggie.jpeg"
       },
       {
         "name": "Veggie Maggie",
         "price": 50,
-        "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=800&q=80"
+        "image": "/menu/veggie-maggie.jpeg"
       }
     ]
   },
@@ -952,31 +952,31 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Chilli Garlic Fried Rice",
         "price": 110,
-        "image": "https://images.unsplash.com/photo-1516684732162-798a0062be99?w=800&q=80",
+        "image": "/menu/chilli-garlic-fried-rice.jpeg",
         "halfPrice": 70
       },
       {
         "name": "Paneer Fried Rice",
         "price": 130,
-        "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800&q=80",
+        "image": "/menu/paneer-fried-rice.jpeg",
         "halfPrice": 90
       },
       {
         "name": "Veg Corn Rice",
         "price": 120,
-        "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80",
+        "image": "/menu/veg-corn-rice.jpeg",
         "halfPrice": 80
       },
       {
         "name": "Veg Fried Rice",
         "price": 90,
-        "image": "https://images.unsplash.com/photo-1516684732162-798a0062be99?w=800&q=80",
+        "image": "/menu/veg-fried-rice.jpeg",
         "halfPrice": 70
       },
       {
         "name": "Veg Singapuri Fried Rice",
         "price": 120,
-        "image": "https://images.unsplash.com/photo-1516684732162-798a0062be99?w=800&q=80",
+        "image": "/menu/veg-singapuri-fried-rice.jpeg",
         "halfPrice": 80
       }
     ],
@@ -990,31 +990,31 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Chilli Garlic Noodles",
         "price": 90,
-        "image": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=800&q=80",
+        "image": "/menu/chilli-garlic-noodles.jpeg",
         "halfPrice": 60
       },
       {
         "name": "Paneer Noodles",
         "price": 100,
-        "image": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=800&q=80",
+        "image": "/menu/paneer-noodles.jpeg",
         "halfPrice": 80
       },
       {
         "name": "Singapuri Noodles",
         "price": 100,
-        "image": "https://images.unsplash.com/photo-1617093727343-374698b1b08d?w=800&q=80",
+        "image": "/menu/singapuri-noodles.jpeg",
         "halfPrice": 80
       },
       {
         "name": "Veg Hakka Noodles",
         "price": 90,
-        "image": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=800&q=80",
+        "image": "/menu/veg-hakka-noodles.jpeg",
         "halfPrice": 60
       },
       {
         "name": "Veg Noodles",
         "price": 80,
-        "image": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=800&q=80",
+        "image": "/menu/veg-noodles.jpeg",
         "halfPrice": 50
       }
     ],
@@ -1028,27 +1028,27 @@ export const menuData: MenuCategory[] = [
       {
         "name": "China Town",
         "price": 180,
-        "image": "https://images.unsplash.com/photo-1526318896980-cf78c088247c?w=800&q=80"
+        "image": "/menu/china-town.jpeg"
       },
       {
         "name": "Kungfu Bowl",
         "price": 99,
-        "image": "https://images.unsplash.com/photo-1526318896980-cf78c088247c?w=800&q=80"
+        "image": "/menu/kungfu-bowl.jpeg"
       },
       {
         "name": "Roll'S Roller",
         "price": 110,
-        "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80"
+        "image": "/menu/roll-s-roller.jpeg"
       },
       {
         "name": "Sip-N-Roll",
         "price": 110,
-        "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80"
+        "image": "/menu/sip-n-roll.jpeg"
       },
       {
         "name": "Thaar Roll'S",
         "price": 110,
-        "image": "https://images.unsplash.com/photo-1526318896980-cf78c088247c?w=800&q=80"
+        "image": "/menu/thaar-roll-s.jpeg"
       }
     ]
   },
@@ -1060,47 +1060,47 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Chur-Chur Naan Thali",
         "price": 110,
-        "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80"
+        "image": "/menu/chur-chur-naan-thali.png"
       },
       {
         "name": "Combo Bowl",
         "price": 80,
-        "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80"
+        "image": "/menu/combo-bowl.png"
       },
       {
         "name": "Delight Combo",
         "price": 80,
-        "image": "https://images.unsplash.com/photo-1526318896980-cf78c088247c?w=800&q=80"
+        "image": "/menu/delight-combo.jpeg"
       },
       {
         "name": "Malai Chaap + 2 Rumali +Cold Drink",
         "price": 180,
-        "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80"
+        "image": "/menu/malai-chaap---2-rumali--cold-drink.png"
       },
       {
         "name": "Masala Chaap +2 Rumali +Cold Drink",
         "price": 170,
-        "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80"
+        "image": "/menu/masala-chaap--2-rumali--cold-drink.png"
       },
       {
         "name": "Paneer Tikka Masala + 2 Rumali +Cold Drink",
         "price": 180,
-        "image": "https://images.unsplash.com/photo-1526318896980-cf78c088247c?w=800&q=80"
+        "image": "/menu/paneer-tikka-masala---2-rumali--cold-drink.png"
       },
       {
         "name": "Regular Thali",
         "price": 150,
-        "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80"
+        "image": "/menu/regular-thali.jpeg"
       },
       {
         "name": "Standard Thali",
         "price": 100,
-        "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80"
+        "image": "/menu/standard-thali.png"
       },
       {
         "name": "Super Deluxe Thali",
         "price": 220,
-        "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80"
+        "image": "/menu/super-deluxe-thali.png"
       }
     ]
   },
@@ -1112,17 +1112,17 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Gulab Jamun (Per Pc)",
         "price": 40,
-        "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80"
+        "image": "/menu/gulab-jamun--per-pc-.png"
       },
       {
         "name": "Special Thandi Kheer",
         "price": 90,
-        "image": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=800&q=80"
+        "image": "/menu/special-thandi-kheer.jpeg"
       },
       {
         "name": "Sponge Rasgulla (Per Pc)",
         "price": 50,
-        "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80"
+        "image": "/menu/sponge-rasgulla--per-pc-.png"
       }
     ]
   },
@@ -1134,27 +1134,27 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Hot N Sour Soup",
         "price": 60,
-        "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80"
+        "image": "/menu/hot-n-sour-soup.png"
       },
       {
         "name": "Manchow Soup",
         "price": 50,
-        "image": "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?w=800&q=80"
+        "image": "/menu/manchow-soup.png"
       },
       {
         "name": "Talumein Soup",
         "price": 60,
-        "image": "https://images.unsplash.com/photo-1604152135912-04a022e23696?w=800&q=80"
+        "image": "/menu/talumein-soup.jpeg"
       },
       {
         "name": "Tomato Soup",
         "price": 50,
-        "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80"
+        "image": "/menu/tomato-soup.jpeg"
       },
       {
         "name": "Veg Sweet Corn Soup",
         "price": 50,
-        "image": "https://images.unsplash.com/photo-1604152135912-04a022e23696?w=800&q=80"
+        "image": "/menu/veg-sweet-corn-soup.jpeg"
       }
     ]
   },
@@ -1166,32 +1166,32 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Jeera Rice",
         "price": 90,
-        "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80"
+        "image": "/menu/jeera-rice.jpeg"
       },
       {
         "name": "Kashmiri Pulao",
         "price": 130,
-        "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80"
+        "image": "/menu/kashmiri-pulao.jpeg"
       },
       {
         "name": "Mutter Pulao",
         "price": 120,
-        "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80"
+        "image": "/menu/mutter-pulao.jpeg"
       },
       {
         "name": "Steamed Rice",
         "price": 80,
-        "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80"
+        "image": "/menu/steamed-rice.jpeg"
       },
       {
         "name": "Veg Hyderabadi Biryani",
         "price": 150,
-        "image": "https://images.unsplash.com/photo-1701579231343-5927305f1e95?w=800&q=80"
+        "image": "/menu/veg-hyderabadi-biryani.jpeg"
       },
       {
         "name": "Veg Pulao",
         "price": 120,
-        "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80"
+        "image": "/menu/veg-pulao.jpeg"
       }
     ]
   },
@@ -1203,27 +1203,27 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Mushroom Onion Pasta (Red Sauce)",
         "price": 120,
-        "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=800&q=80"
+        "image": "/menu/mushroom-onion-pasta--red-sauce-.jpeg"
       },
       {
         "name": "Mushroom Onion Pasta (White Sauce)",
         "price": 120,
-        "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=800&q=80"
+        "image": "/menu/mushroom-onion-pasta--white-sauce-.jpeg"
       },
       {
         "name": "Pink Sauce Pasta",
         "price": 130,
-        "image": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=800&q=80"
+        "image": "/menu/pink-sauce-pasta.jpeg"
       },
       {
         "name": "Red Sauce Pasta",
         "price": 100,
-        "image": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=800&q=80"
+        "image": "/menu/red-sauce-pasta.jpeg"
       },
       {
         "name": "White Sauce Pasta",
         "price": 120,
-        "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800&q=80"
+        "image": "/menu/white-sauce-pasta.jpeg"
       }
     ]
   },
@@ -1235,61 +1235,61 @@ export const menuData: MenuCategory[] = [
       {
         "name": "Paneer Afghani Momo",
         "price": 150,
-        "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=800&q=80",
+        "image": "/menu/paneer-afghani-momo.jpeg",
         "halfPrice": 110
       },
       {
         "name": "Paneer Fried Momo",
         "price": 120,
-        "image": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=800&q=80",
+        "image": "/menu/paneer-fried-momo.png",
         "halfPrice": 100
       },
       {
         "name": "Paneer Kurkure Momo",
         "price": 130,
-        "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=800&q=80",
+        "image": "/menu/paneer-kurkure-momo.png",
         "halfPrice": 110
       },
       {
         "name": "Paneer Steamed Momo",
         "price": 100,
-        "image": "https://images.unsplash.com/photo-1626074353765-517a681e40be?w=800&q=80",
+        "image": "/menu/paneer-steamed-momo.jpeg",
         "halfPrice": 80
       },
       {
         "name": "Paneer Tandoori Momo",
         "price": 140,
-        "image": "https://images.unsplash.com/photo-1626074353765-517a681e40be?w=800&q=80",
+        "image": "/menu/paneer-tandoori-momo.jpeg",
         "halfPrice": 100
       },
       {
         "name": "Veg Afghani Momo",
         "price": 140,
-        "image": "https://images.unsplash.com/photo-1626074353765-517a681e40be?w=800&q=80",
+        "image": "/menu/veg-afghani-momo.jpeg",
         "halfPrice": 110
       },
       {
         "name": "Veg Fried Momo",
         "price": 90,
-        "image": "https://images.unsplash.com/photo-1626074353765-517a681e40be?w=800&q=80",
+        "image": "/menu/veg-fried-momo.jpeg",
         "halfPrice": 60
       },
       {
         "name": "Veg Kurkure Momo",
         "price": 100,
-        "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=800&q=80",
+        "image": "/menu/veg-kurkure-momo.jpeg",
         "halfPrice": 70
       },
       {
         "name": "Veg Steamed Momo",
         "price": 70,
-        "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=800&q=80",
+        "image": "/menu/veg-steamed-momo.jpeg",
         "halfPrice": 50
       },
       {
         "name": "Veg Tandoori Momo",
         "price": 130,
-        "image": "https://images.unsplash.com/photo-1626074353765-517a681e40be?w=800&q=80",
+        "image": "/menu/veg-tandoori-momo.jpeg",
         "halfPrice": 90
       }
     ],
@@ -1303,97 +1303,97 @@ export const comboData = [
     "name": "China Town",
     "price": 180,
     "description": "China Town",
-    "image": "https://images.unsplash.com/photo-1526318896980-cf78c088247c?w=800&q=80"
+    "image": "/menu/china-town.jpeg"
   },
   {
     "id": "combo-2",
     "name": "Kungfu Bowl",
     "price": 99,
     "description": "Kungfu Bowl",
-    "image": "https://images.unsplash.com/photo-1526318896980-cf78c088247c?w=800&q=80"
+    "image": "/menu/kungfu-bowl.jpeg"
   },
   {
     "id": "combo-3",
     "name": "Roll'S Roller",
     "price": 110,
     "description": "Roll'S Roller",
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80"
+    "image": "/menu/roll-s-roller.jpeg"
   },
   {
     "id": "combo-4",
     "name": "Sip-N-Roll",
     "price": 110,
     "description": "Sip-N-Roll",
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80"
+    "image": "/menu/sip-n-roll.jpeg"
   },
   {
     "id": "combo-5",
     "name": "Thaar Roll'S",
     "price": 110,
     "description": "Thaar Roll'S",
-    "image": "https://images.unsplash.com/photo-1526318896980-cf78c088247c?w=800&q=80"
+    "image": "/menu/thaar-roll-s.jpeg"
   },
   {
     "id": "combo-6",
     "name": "Chur-Chur Naan Thali",
     "price": 110,
     "description": "Chur-Chur Naan Thali",
-    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80"
+    "image": "/menu/chur-chur-naan-thali.png"
   },
   {
     "id": "combo-7",
     "name": "Combo Bowl",
     "price": 80,
     "description": "Combo Bowl",
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80"
+    "image": "/menu/combo-bowl.png"
   },
   {
     "id": "combo-8",
     "name": "Delight Combo",
     "price": 80,
     "description": "Delight Combo",
-    "image": "https://images.unsplash.com/photo-1526318896980-cf78c088247c?w=800&q=80"
+    "image": "/menu/delight-combo.jpeg"
   },
   {
     "id": "combo-9",
     "name": "Malai Chaap + 2 Rumali +Cold Drink",
     "price": 180,
     "description": "Malai Chaap + 2 Rumali +Cold Drink",
-    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80"
+    "image": "/menu/malai-chaap---2-rumali--cold-drink.png"
   },
   {
     "id": "combo-10",
     "name": "Masala Chaap +2 Rumali +Cold Drink",
     "price": 170,
     "description": "Masala Chaap +2 Rumali +Cold Drink",
-    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80"
+    "image": "/menu/masala-chaap--2-rumali--cold-drink.png"
   },
   {
     "id": "combo-11",
     "name": "Paneer Tikka Masala + 2 Rumali +Cold Drink",
     "price": 180,
     "description": "Paneer Tikka Masala + 2 Rumali +Cold Drink",
-    "image": "https://images.unsplash.com/photo-1526318896980-cf78c088247c?w=800&q=80"
+    "image": "/menu/paneer-tikka-masala---2-rumali--cold-drink.png"
   },
   {
     "id": "combo-12",
     "name": "Regular Thali",
     "price": 150,
     "description": "Regular Thali",
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80"
+    "image": "/menu/regular-thali.jpeg"
   },
   {
     "id": "combo-13",
     "name": "Standard Thali",
     "price": 100,
     "description": "Standard Thali",
-    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80"
+    "image": "/menu/standard-thali.png"
   },
   {
     "id": "combo-14",
     "name": "Super Deluxe Thali",
     "price": 220,
     "description": "Super Deluxe Thali",
-    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80"
+    "image": "/menu/super-deluxe-thali.png"
   }
 ];

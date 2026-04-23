@@ -9,11 +9,14 @@ import { Testimonials } from "./components/Testimonials";
 import { Footer } from "./components/Footer";
 import { CartDrawer, CartItem } from "./components/CartDrawer";
 import { BookingModal } from "./components/BookingModal";
+import { CheckoutAddressDrawer, SavedAddress, PaymentMethod } from "./components/CheckoutAddressDrawer";
 
 export default function App() {
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isBookingOpen, setIsBookingOpen] = useState(false);
+  const [isAddressOpen, setIsAddressOpen] = useState(false);
+  const [savedAddress, setSavedAddress] = useState<SavedAddress | null>(null);
 
   const handleAddToCart = (newItem: CartItem) => {
     setCartItems((prev) => {
@@ -50,10 +53,20 @@ export default function App() {
     setCartItems((prev) => prev.filter((_, i) => i !== index));
   };
 
-  const handleCheckout = () => {
-    alert("Thank you for your order! We'll deliver soon.");
-    setCartItems([]);
+  const handleProceedToAddress = () => {
     setIsCartOpen(false);
+    setIsAddressOpen(true);
+  };
+
+  const handlePlaceOrder = (address: SavedAddress, paymentMethod: PaymentMethod) => {
+    setSavedAddress(address);
+    alert(
+      paymentMethod === "upi"
+        ? `Payment completed for ${address.fullName}. Your online order is confirmed and we'll deliver soon.`
+        : `Address saved for ${address.fullName}. Your cash order is confirmed and we'll deliver soon.`
+    );
+    setCartItems([]);
+    setIsAddressOpen(false);
   };
 
   const scrollToMenu = () => {
@@ -100,7 +113,22 @@ export default function App() {
         cartItems={cartItems}
         onUpdateQuantity={handleUpdateQuantity}
         onRemoveItem={handleRemoveItem}
-        onCheckout={handleCheckout}
+        onCheckout={handleProceedToAddress}
+      />
+
+      <CheckoutAddressDrawer
+        isOpen={isAddressOpen}
+        cartItems={cartItems}
+        savedAddress={savedAddress}
+        onClose={() => {
+          setIsAddressOpen(false);
+          setIsCartOpen(true);
+        }}
+        onBackToCart={() => {
+          setIsAddressOpen(false);
+          setIsCartOpen(true);
+        }}
+        onPlaceOrder={handlePlaceOrder}
       />
 
       <BookingModal
